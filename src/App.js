@@ -11,13 +11,15 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponents';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import PostList from './components/PostList';
 // import { ReactComponent } from '*.svg';
 
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <NameList/>
+        <PostList />
+        {/* <NameList/> */}
         {/* <UserGreeting/> */}
         {/* <ParentComponent/> */}
         {/* <EventBind/> */}
